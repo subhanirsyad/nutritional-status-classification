@@ -1,11 +1,12 @@
-# Data folder
+## Dataset
+Dataset yang digunakan pada proyek ini tersedia pada:
 
-Repo ini tidak menyertakan dataset mentah.
-
-Letakkan file CSV dataset kamu di:
 - `data/data_balita.csv`
 
-Lalu pastikan notebook membaca path tersebut (atau sesuaikan path di notebook).
+Fitur utama:
+- Umur (bulan)
+- Jenis kelamin
+- Tinggi badan (cm)
+- Status gizi (kelas)
 
-Tips:
-- Kalau dataset kamu besar, jangan di-commit ke GitHub. Simpan sebagai file lokal / Google Drive, atau pakai Git LFS.
+> Catatan: jika ingin repo lebih ringan, dataset bisa dipindahkan ke penyimpanan eksternal (Drive/Kaggle) lalu cantumkan link + instruksi download.
