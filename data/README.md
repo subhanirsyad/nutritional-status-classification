@@ -3,6 +3,8 @@ Dataset yang digunakan pada proyek ini tersedia pada:
 
 - `data/data_balita.csv`
 atau bisa di akses melalui : https://www.kaggle.com/datasets/rendiputra/stunting-balita-detection-121k-rows?resource=download
+
+
 Fitur utama:
 - Umur (bulan)
 - Jenis kelamin
