@@ -1,0 +1,5 @@
+# Dev-only (not required for Streamlit deployment)
+imbalanced-learn>=0.11
+matplotlib>=3.7
+seaborn>=0.12
+jupyter>=1.0

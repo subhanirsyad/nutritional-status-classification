@@ -1,0 +1,47 @@
+{
+  "accuracy": 0.9996694214876033,
+  "roc_auc": 0.9999994050059282,
+  "confusion_matrix": [
+    [
+      17457,
+      6
+    ],
+    [
+      2,
+      6735
+    ]
+  ],
+  "classification_report": {
+    "tidak stunted": {
+      "precision": 0.9998854459018272,
+      "recall": 0.999656416423295,
+      "f1-score": 0.9997709180459309,
+      "support": 17463.0
+    },
+    "stunted": {
+      "precision": 0.9991099243435692,
+      "recall": 0.9997031319578448,
+      "f1-score": 0.9994064401246475,
+      "support": 6737.0
+    },
+    "accuracy": 0.9996694214876033,
+    "macro avg": {
+      "precision": 0.9994976851226982,
+      "recall": 0.9996797741905699,
+      "f1-score": 0.9995886790852893,
+      "support": 24200.0
+    },
+    "weighted avg": {
+      "precision": 0.9996695496729848,
+      "recall": 0.9996694214876033,
+      "f1-score": 0.9996694516097455,
+      "support": 24200.0
+    }
+  },
+  "train_test_split": {
+    "test_size": 0.2,
+    "random_state": 42,
+    "stratify": true
+  },
+  "notes": "Label: 1=stunted, 0=tidak stunted. Pipeline: OneHotEncoder(gender) + RandomForest."
+}
